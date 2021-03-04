@@ -1,0 +1,35 @@
+main{
+    margin: 20px auto 20px auto;
+
+
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+
+}
+
+
+img{
+    width: 100%;
+    display: block;
+    margin: 1% auto 1% auto;
+    border:2px solid black;
+}
+
+
+
+
+@media screen and (min-width: 700px) {
+        img{
+            width:10%;
+            display: inline;
+        }
+        .vertical{
+          width:30%;
+        }
+
+@media screen and (min-width: 1000px) {
+  .vertical{
+    width:30%;
+  }
