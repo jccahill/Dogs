@@ -1,5 +1,5 @@
 body{
-    background: #708090;
+    background: #FFDAB9;
     padding: 0;
     margin: 0;
     font-family: Helvetica, sans-serif;
@@ -31,7 +31,7 @@ nav a:hover{
 }
 /* styles for hero or feature */
 .hero{
-    background-image: url("hair-2537564_1920.jpg");
+    background-image: url("img/hair.jpg");
     height:400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,11 +40,20 @@ nav a:hover{
     position: relative;
 }
 .hero h2{
-    position:absolute;
-    bottom: 10%;
+    position: absolute;
+    bottom: 20%;
     right: 5%;
 }
-
+button{
+  position: absolute;
+  bottom: 8%;
+  right: 5%;
+  background: none;
+  padding: 5px;
+  border: 2px white solid;
+  font-size: 1.3em;
+  border-radius: 5px;
+}
 main{
   margin: 20px auto 20px auto;
 
@@ -56,6 +65,7 @@ main{
     flex-basis: 300px;
     flex-grow: 1;
     margin: 10px;
+    background: rgba(181, 181, 181, 0.5);
     padding: 30px;
 }
 
@@ -78,7 +88,7 @@ img{
         }
 
         body{
-          background: LightGrey;
+          background: #FFDAB9;
         }
 
         .logo{
@@ -88,7 +98,7 @@ img{
 /* Everything below is for even larger screens */
 @media screen and (min-width: 1400px) {
         body{
-          background: Purple;
+          background: #FFDAB9;
         }
   img{
 
