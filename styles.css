@@ -1,5 +1,5 @@
 body{
-    background: #FFDAB9;
+    background: rgb(181, 165, 170);
     padding: 0;
     margin: 0;
     font-family: Helvetica, sans-serif;
@@ -13,9 +13,10 @@ body{
 }
 
 nav{
-  background: grey;
+  background: rgba(255, 255, 255, 0.3);
   /* height: 60px; */
   text-align: center;
+  font font-family: Georgia, serif;
 }
 nav a{
     text-align: center;
@@ -54,6 +55,18 @@ button{
   font-size: 1.3em;
   border-radius: 5px;
 }
+/* STYLES FOR ABOUT.HTML */
+.about-hero{
+    background-image: url("");
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* moving text below */
+    position: relative;
+  }
+  /* END ABOUT.HTML */
+
 main{
   margin: 20px auto 20px auto;
 
@@ -64,7 +77,7 @@ main{
 .flexitem{
     flex-basis: 300px;
     flex-grow: 1;
-    margin: 10px;
+    margin: 2px 20px;
     background: rgba(181, 181, 181, 0.5);
     padding: 30px;
 }
@@ -78,7 +91,20 @@ img{
 
 }
 
+footer{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    text-align: center;
+}
 
+footer p{
+    margin: 40px;
+    color: white;
+}
+
+footer a{
+  color: white;
+}
 
 /* Everything below is for larger screens */
 @media screen and (min-width: 700px) {
@@ -88,17 +114,25 @@ img{
         }
 
         body{
-          background: #FFDAB9;
+          background: rgb(181, 165, 170);
         }
 
         .logo{
           /* width: 350px; */
         }
+
+        .flexitem{
+            margin: 20px;
+        }
+
+        .flexitem:first-child{
+            margin-right: 0;
+        }
 }
 /* Everything below is for even larger screens */
 @media screen and (min-width: 1400px) {
         body{
-          background: #FFDAB9;
+          background: rgb(181, 165, 170);
         }
   img{
 
